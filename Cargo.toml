@@ -1,0 +1,11 @@
+[package]
+name = "rust_image_download"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tempfile = "3.13.0"
+reqwest = { version = "0.12.8", features = ["blocking"] }
+thiserror = "1.0.40"
+tokio = { version = "1.27.0", features = ["full"] }
+dirs = "5.0.1"
